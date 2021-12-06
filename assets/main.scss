@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Shippori+Mincho:wght@400;700&display=swap');
+
+$fonts_sans: "Inter", "Noto Sans JP";
+body{
+  margin: 0;
+  background: #eee;
+  font-family: $fonts_sans;
+}
+
+.is-flex {
+  display: flex;
+}
+.space_60{
+  height: 60px;
+}
